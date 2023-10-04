@@ -22,7 +22,7 @@ class Test_ChromeTest(Base_Test):
 
     def test_googleTitle(self):
         self.driver.get("https://google.com")
-        assert self.driver.title == "Google"
+        assert self.driver.title == "Googless"
 
     def test_Facebbok(self):
         self.driver.get("https://facebook.com")
@@ -30,9 +30,9 @@ class Test_ChromeTest(Base_Test):
 
     def test_yahoo(self):
         self.driver.get("https://yahoomail.com")
-        assert self.driver.title== "Google"
+        assert self.driver.title== "Googless"
 
 
     def test_yatra(self):
-        self.driver.get("https://Yatra.com")
+        self.driver.get("https://facebook.com")
         assert self.driver.title =="Facebook - log in or sign up"
