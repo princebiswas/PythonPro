@@ -7,8 +7,8 @@ def M1():
 
 def test_M4():
     a=10
-    b=20
-    assert a!=b,"Test case failed if not Matching"
+    b=30
+    assert a==b,"Test case failed if not Matching"
 
 
 def test_M5():
